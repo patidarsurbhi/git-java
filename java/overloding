@@ -1,0 +1,22 @@
+class Test
+{
+	 public static void main(String args [])
+	 {
+	 static void sum(int a,int b)
+	 {
+	    System.out.println("int int")
+	 }
+	     static void main (String,int)
+	     {
+	        System.out.println("string ,int");
+	     }
+	      static void sum(byte,int)
+	     {
+	        System.out.println("byte,int")
+	     }
+	     public static void main(String[] args)
+	     {
+	       sum(10,20);
+	     }
+	 }
+}

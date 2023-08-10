@@ -1,0 +1,273 @@
+/*class Test
+{
+	 public static void main(String args [])
+	 {
+	   int i,j,n=5;
+	   {
+	      for(i=1;i<=n;i++)
+	      {
+	         for(j=1;j<=n;j++)
+	         {
+	            System.out.print(i);
+	            //System.out.print(j);
+	         }
+	         System.out.println(" ");
+	      }
+	   }
+	 }
+}*/
+/*ass Test
+{
+	public static void main(String args [])
+	{
+		 int i,j,n=10;
+		 {
+		 	for(i=1;i<=n;i++)
+		 	{
+		 		for(j=1;j<=i;j++)
+		 		{
+		 			System.out.print(i);	
+		 		}
+		 		System.out.println(" ");
+		 	}
+		 }
+	}
+	
+}*/
+/*class Test
+{
+	public static void main(String args [])
+	{
+		int i,j,n=5;
+		{
+			for(i=1;i<=n;i++)
+			{
+				for(j=1;j<=i;j++)
+				{
+					System.out.print(i);
+					//System.out.print(j);
+				}
+				System.out.println("");
+
+			}
+		}
+	}
+}*/
+/*class Test
+{
+	public static void main(String args [])
+	{
+		int i,j,n=5;
+		{
+			  for(i=1;i<=n;i++)
+			  {
+			  	for(j=5;j>=i;j--)
+			  	{
+			  		System.out.print(i);
+			  		//System.out.print(j);
+			  	}
+			  	System.out.println("");
+			  }
+		}
+
+	}
+}*/
+/*class Test
+{
+		public static void main(String args [])
+		{
+         int i,j,n=5;
+         {
+         	for(i=1;i<=n;i++)
+         	{
+         		for(j=1;j<=n;j++)
+         		{
+         			System.out.print(i);
+         			//System.out.print(j);
+         		}
+         		    System.out.println("");
+         	}
+         }
+		}
+	 
+	}*/
+/*
+class Test
+{
+	public static void main(String args [])
+	{
+		int i,j,n=5;
+		{
+			for(i=1;i<=n;i++)
+			{
+				for(j=1;j<=n-i+1;j++)
+				{
+					//System.out.print(j);
+					System.out.print(i);
+				}
+				   System.out.println("");
+			}
+		}
+	}
+}*/
+/*class Test
+{
+	public static void main(String args [])
+	{
+		int i,j,n=5;
+		{
+			for(i=1;i<=n;i++)
+			{
+				for(j=5;j<=n-1;j++)
+				{
+					System.out.print(j);
+j				  System.out.println("");
+			}
+		}
+	}
+}*/
+/*class Test
+{
+	public static void main(String args [])
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter a no");
+		int n=s.nextInt();
+		int i,j,t;
+		for(i=1;i<=n;i++)
+		{
+			for(j=1;j<=i*2-1;j++)
+				System.out.print("");
+			t=1;
+			for(j=1;j<=i*2-1;j++)
+				System.out.print(t);
+			     if(j<i)
+			     	t++;
+			     else
+			     	t--;
+		}
+		  System.out.ptrintln();
+	}
+}*/
+/*class Test
+{
+	public static void main(String args [])
+	{
+		int i,j,n=5;
+		for(i=0;i<n;i++)
+		{
+			for(j=0;j<n;j++)
+			{
+				if(i+j<n/2||j-i>n/2||i+j>n+n/2-1||i-j>n/2)
+					System.out.print("*");
+				else
+					System.out.print(" ");
+			}
+			      System.out.println();
+		}
+	}
+}	*/
+/*class Test
+{
+	public static void main(String args [])
+	{
+		int i,j,n=5;
+		for(i=0;i<n;i++)
+		{
+			for(j=0;j<n;j++)   //dimand;
+			{
+				if(i+j<n/2||j-i>n/2||i+j>n+n/2-1||i-j>n/2)
+					System.out.print(" ");
+				else
+					System.out.print("*");
+			}
+			      System.out.println();
+		}
+	}
+}*/	
+
+
+/*class Test
+{
+	public static void main(String args [])
+	{
+		int i,j,n=5;
+		for(i=0;i<n;i++)
+		{
+			for(j=0;j<n;j++)   
+			{
+				if(i+j<n/2||j-i>n/2||i==n-1||i==n-2)
+					System.out.print(" ");
+				else
+					System.out.print("*");
+			}
+			      System.out.println();
+		}
+	}
+}*/	
+/*import java.util.Scanner;
+class Test
+{
+	public static void main(String args [])
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter a no");
+		int n=s.nextInt();
+		int i,j,t,space=n-1;
+		for(i=1;i<=n;i++)
+		{
+			for(j=1;j<=space;j++){           //17
+				System.out.print(" ");
+			}
+		
+		space--;
+		t=1;
+		for(j=1;j<=i*2-1;j++)
+		 {
+		 	System.out.print(t);
+		 	if(j<i)
+		 		t++;
+		 	else
+		 		t--;
+		 }
+		 System.out.println();
+		}
+	}
+}*/
+
+
+
+
+/*import java.util.Scanner;
+class Test
+{
+	public static void main(String args [])
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter a no");
+		int n=s.nextInt();
+		int i,j,t,space=n-1;
+		for(i=1;i<=n;i++)
+		{
+			for(j=1;j<=space;j++){           //45
+				System.out.print(" ");
+			}
+		
+		space--;
+		t=1;
+		for(j=1;j<=i*2-1;j++)
+		 {
+		 	System.out.print(j);
+		 	if(j<i)
+		 		t++;
+		 	else
+		 		t--;
+		 }
+		 System.out.println();
+		}
+	}
+}*/
+
+
+
+
